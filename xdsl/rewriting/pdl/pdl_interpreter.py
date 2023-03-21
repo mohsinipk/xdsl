@@ -376,3 +376,5 @@ if __name__ == "__main__":
             debug(result.error_msg)
         else:
             break
+
+    Printer(target=Printer.Target.MLIR).print_op(ir_module)
